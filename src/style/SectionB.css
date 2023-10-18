@@ -1,0 +1,104 @@
+.sectionB {
+    /* width: 100%; */
+    /* height: 100vh; */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+
+.taskOne {
+    background-color: #4c4b4b;
+    padding-left: 2rem;
+    padding-right: 2.6rem;
+    /* padding-bottom: 1rem; */
+    padding-top: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.taskThree{
+    background-color: #4c4b4b;
+    padding-left: 2rem;
+    padding-right: 2.6rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.taskOne-heading{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+.taskOne-submit{
+    width: 100%;
+    margin-left: 8px;
+    padding: 0.5rem;
+    background-color: #bc9090;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+.taskOne-submit:hover{
+    background-color: #555;
+}
+
+.taskOne-result{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+.taskTwo-result{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.taskThree-result{
+    font-size: 1rem;
+    color: white;
+    font-weight:400;
+    margin-left: 10%;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+/* button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
+
+/* button:hover {
+    background-color: #2980b9;
+} */
+
+
